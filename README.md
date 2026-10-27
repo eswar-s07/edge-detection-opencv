@@ -70,7 +70,7 @@ plt.title('Original Image')
 plt.axis('off')
 ```
 
-<Figure size 640x480 with 1 Axes>
+![alt text](<Screenshot 2026-10-27 120050.png>)
 
 ###  Sobel Edge Detector
 - Detects edges in horizontal and vertical directions  
@@ -83,7 +83,7 @@ plt.imshow(sobel_combined, cmap='gray')
 plt.title('Sobel Edge Detection')
 plt.axis('off')
 ```
-<Figure size 640x480 with 1 Axes>
+![alt text](<Screenshot 2026-10-27 120101.png>)
 
 ###  Prewitt Edge Detector
 - Similar to Sobel but simpler kernel  
@@ -109,7 +109,7 @@ plt.imshow(Canny_edges, cmap='gray')
 plt.title('Prewitt Edge Detection')
 plt.axis('off')
 ```
-<Figure size 640x480 with 1 Axes>
+![alt text](<Screenshot 2026-10-27 120122.png>)
 
 ###  Roberts Edge Detector
 - Detects edges using diagonal gradients  
@@ -128,7 +128,7 @@ plt.title("Roberts Edge Detection")
 plt.axis("off")
 plt.show()
 ```
-<Figure size 640x480 with 1 Axes>
+![alt text](<Screenshot 2026-10-27 120148.png>)
 
 ###  Laplacian Edge Detector
 - Detects edges using second-order derivatives  
@@ -139,7 +139,7 @@ plt.imshow(Laplacian, cmap='gray')
 plt.title('Laplacian Edge Detection')
 plt.axis('off')
 ```
-<Figure size 640x480 with 1 Axes>
+![alt text](<Screenshot 2026-10-27 120109.png>)
 
 ###  Canny Edge Detector
 - Multi-stage edge detection  
@@ -150,7 +150,7 @@ plt.imshow(Canny_edges, cmap='gray')
 plt.title('Canny Edge Detection')
 plt.axis('off')
 ```
-<Figure size 640x480 with 1 Axes>
+![alt text](<Screenshot 2026-10-27 120115.png>)
 
 ---
 
